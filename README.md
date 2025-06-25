@@ -8,13 +8,6 @@ Ideal para estudiantes, entusiastas de redes y futuros pentesters.
 
 ---
 
-## 🖼️ Vista previa
-
-> *(Puedes agregar aquí una imagen del script funcionando o una animación .gif)*  
-> `scanner.py` en acción detectando hosts activos y puertos abiertos.
-
----
-
 ## 🧠 ¿Qué aprenderás?
 
 - Cómo funciona una red local
@@ -36,6 +29,18 @@ Ideal para estudiantes, entusiastas de redes y futuros pentesters.
 ---
 
 ## ⚙️ Instalación paso a paso
+# En Windows
+py -m venv venv
+venv\Scripts\activate
+
+# En macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install python-nmap scapy
+pip freeze > requirements.txt
+nmap --version
+
 
 ### 1. Clona el repositorio
 
